@@ -1,3 +1,4 @@
+package com.krakedev.Contacto;
 public class Contacto {
 
  private String nombre;

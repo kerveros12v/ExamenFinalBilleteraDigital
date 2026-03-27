@@ -1,3 +1,4 @@
+package com.krakedev.Transaccion;
 public class Transaccion {
     private String tipo;
     private double monto;
