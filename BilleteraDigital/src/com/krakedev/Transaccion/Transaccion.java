@@ -57,6 +57,15 @@ public class Transaccion {
         }
         
     }
+
+    public void aplicarComision(double porcentaje) {
+        double comision = monto*(porcentaje/100);
+        double montoTotal = monto+comision;
+
+        System.out.println("Comisión (" + porcentaje + "%): $" + comision);
+        System.out.println("Monto total con comisión: $" + montoTotal);
+        
+    }      
       
-    
+           
 }
