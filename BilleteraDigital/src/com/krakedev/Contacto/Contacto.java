@@ -27,5 +27,10 @@ public void marcarFavorito() {
 	 this.favorito = true;
 	 System.out.println(this.nombre+"agregador a favoritos ★");
  }
-
+ public void enviarDinero(double monto) {
+	 System.out.println("Transferencia enviada");
+	 System.out.println("Destinatario: "+this.nombre);
+	 System.out.println("Cuenta: "+this.cuentaDestino);
+	 System.out.println("Monto: "+monto);
+ }
 }
