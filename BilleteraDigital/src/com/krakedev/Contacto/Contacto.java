@@ -11,5 +11,17 @@ public class Contacto {
 	 this.banco = banco;
 	 this.favorito = false;
  }
- 
+public void mostrarContacto() {
+	 System.out.println("=== Contacto ===");
+	 System.out.println("");
+	 System.out.println("Nombre: "+this.nombre);
+	 System.out.println("Cuenta: "+this.cuentaDestino);
+	 System.out.println("Banco: "+this.banco);
+	 if(!favorito) {
+		 System.out.println("Favorito: Sin Marcar");
+	 }else {
+		 System.out.println("★ Favorito");
+	 }
+}
+
 }
