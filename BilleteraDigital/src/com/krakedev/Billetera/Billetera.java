@@ -15,4 +15,9 @@ public void mostrarInfo(){
                 "\nSaldo: " +saldo+
                 "\nEstado: "+((activa)?"Activa":"Inactiva"));
 }
+public void depositar(double monto){
+    saldo+=monto;
+    System.out.println("Depósito exitoso: $" + monto+
+                "\nNuevo saldo:$" + saldo);
+}
 }
