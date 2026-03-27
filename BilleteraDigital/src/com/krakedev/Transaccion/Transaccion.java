@@ -44,5 +44,19 @@ public class Transaccion {
     this.exitosa = exitosa;
     }   
 
+    public void mostrarDetalle() {
+        System.out.println("---- Detalle de Transacción ----");
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Monto: $" + monto);
+        System.out.println("Descripción: " + descripcion);
+        
+        if (exitosa) {
+            System.out.println("Estado: Exitosa");
+        } else {
+            System.out.println("Estado: Fallida");
+        }
+        
+    }
+      
     
 }
