@@ -60,12 +60,20 @@ public class Transaccion {
 
     public void aplicarComision(double porcentaje) {
         double comision = monto*(porcentaje/100);
-        double montoTotal = monto+comision;
+        double montoTotal = monto + comision;
 
         System.out.println("Comisión (" + porcentaje + "%): $" + comision);
         System.out.println("Monto total con comisión: $" + montoTotal);
         
-    }      
+    }  
+    
+    
+    public void marcarFallida() {
+        this.exitosa = false;
+        System.out.println("Transacción marcada como fallida.");
+        System.out.println("Monto afectado: $" + monto);
+    }
+
       
            
 }
