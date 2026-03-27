@@ -20,4 +20,13 @@ public void depositar(double monto){
     System.out.println("Depósito exitoso: $" + monto+
                 "\nNuevo saldo:$" + saldo);
 }
+public void retirar(double monto){
+    if(saldo<monto){
+        System.out.println("Fondos insuficientes.\nSaldo actual: "+saldo);
+    }else{
+        saldo-=monto;
+         System.out.println("Retiro exitoso: $" + monto+
+                "\nSaldo restante: $" + saldo);
+    }
+}
 }
