@@ -23,5 +23,9 @@ public void mostrarContacto() {
 		 System.out.println("★ Favorito");
 	 }
 }
+public void marcarFavorito() {
+	 this.favorito = true;
+	 System.out.println(this.nombre+"agregador a favoritos ★");
+ }
 
 }
