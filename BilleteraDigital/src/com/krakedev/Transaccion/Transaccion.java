@@ -10,4 +10,39 @@ public class Transaccion {
         this.descripcion = descripcion;
         this.exitosa = true;
     }
+
+
+    public String getTipo() {
+    return tipo;
+    }
+
+    public void setTipo(String tipo) {
+    this.tipo = tipo;
+    }
+
+    public double getMonto() {
+    return monto;
+    }
+
+    public void setMonto(double monto) {
+    this.monto = monto;
+    }
+
+    public String getDescripcion() {
+    return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+    this.descripcion = descripcion;
+    }
+
+    public boolean isExitosa() {
+    return exitosa;
+    }
+
+    public void setExitosa(boolean exitosa) {
+    this.exitosa = exitosa;
+    }   
+
+    
 }
